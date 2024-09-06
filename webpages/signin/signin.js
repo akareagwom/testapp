@@ -20,8 +20,10 @@ document.querySelector('body').innerHTML = `
     </div>
 
     <button class="signUp" type = "submit">Sign Up</button>
-    <a href="">Already have an account?</a>
-    <button class="loginB" a href = "../login/login.html">Login</button>
+    <a href="../login/login.html">Already have an account?</a>
+    <a href = "../login/login.html">
+    <button class="loginB">Login</button>
+    </a>
   </div>
   <div id = "picture">
     <img src="../../public/hoodiePic.jpg" alt="">
